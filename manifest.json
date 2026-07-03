@@ -10,6 +10,8 @@
   "background_color": "#0A4F6E",
   "theme_color": "#FF6B35",
   "lang": "es",
+  "dir": "ltr",
+  "display_override": ["window-controls-overlay", "standalone", "browser"],
   "categories": ["business", "navigation", "productivity"],
   "prefer_related_applications": false,
   "related_applications": [],
@@ -45,6 +47,12 @@
       "sizes": "1080x1920",
       "type": "image/png",
       "form_factor": "narrow"
+    },
+    {
+      "src": "screenshot-wide.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide"
     }
   ]
 }
