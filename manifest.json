@@ -2,13 +2,13 @@
   "id": "/SERVIKARGO2/",
   "name": "ServiKargo Cartagena",
   "short_name": "ServiKargo",
-  "description": "Transporte en motocarro y servicios para el hogar · ServiKargo · Cartagena de Indias",
-  "start_url": "./",
-  "scope": "./",
+  "description": "Transporte en motocarro y servicios para el hogar - ServiKargo - Cartagena de Indias",
+  "start_url": "https://servikargo1.github.io/SERVIKARGO2/?view=cliente&v=6",
+  "scope": "https://servikargo1.github.io/SERVIKARGO2/",
   "display": "standalone",
   "orientation": "portrait-primary",
   "background_color": "#0F2340",
-  "theme_color": "#0CA678",
+  "theme_color": "#A0CA67",
   "lang": "es",
   "dir": "ltr",
   "display_override": ["window-controls-overlay", "standalone", "browser"],
@@ -16,18 +16,68 @@
   "prefer_related_applications": false,
   "related_applications": [],
   "icons": [
-    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "icon-192-maskable.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
-    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
-    { "src": "icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+    {
+      "src": "https://servikargo1.github.io/SERVIKARGO2/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://servikargo1.github.io/SERVIKARGO2/icon-192-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "https://servikargo1.github.io/SERVIKARGO2/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://servikargo1.github.io/SERVIKARGO2/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
   ],
   "screenshots": [
-    { "src": "screenshot1.png", "sizes": "1080x1920", "type": "image/png", "form_factor": "narrow" },
-    { "src": "screenshot-wide.png", "sizes": "1920x1080", "type": "image/png", "form_factor": "wide" }
+    {
+      "src": "https://servikargo1.github.io/SERVIKARGO2/screenshot1.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Pantalla de inicio ServiKargo"
+    },
+    {
+      "src": "https://servikargo1.github.io/SERVIKARGO2/screenshot-wide.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Panel de control ServiKargo"
+    }
   ],
   "shortcuts": [
-    { "name": "Solicitar transporte", "url": "./?view=cliente", "description": "Pide tu transporte" },
-    { "name": "Conductor · ServiKargo", "url": "./?view=driver", "description": "Acceso motocarrista" },
-    { "name": "Admin · ServiKargo", "url": "./?view=admin", "description": "Panel de control" }
+    {
+      "name": "Solicitar Transporte",
+      "short_name": "Pedir",
+      "description": "Pide tu transporte",
+      "url": "https://servikargo1.github.io/SERVIKARGO2/?view=cliente",
+      "icons": [{ "src": "https://servikargo1.github.io/SERVIKARGO2/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Director - ServiKargo",
+      "short_name": "Conductor",
+      "description": "Acceso motocarrista",
+      "url": "https://servikargo1.github.io/SERVIKARGO2/?view=conductor",
+      "icons": [{ "src": "https://servikargo1.github.io/SERVIKARGO2/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Admin - ServiKargo",
+      "short_name": "Admin",
+      "description": "Panel de control",
+      "url": "https://servikargo1.github.io/SERVIKARGO2/?view=admin",
+      "icons": [{ "src": "https://servikargo1.github.io/SERVIKARGO2/icon-192.png", "sizes": "192x192" }]
+    }
   ]
 }
