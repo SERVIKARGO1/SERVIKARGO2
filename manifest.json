@@ -1,13 +1,13 @@
 {
   "name": "ServiKargo",
   "short_name": "ServiKargo",
-  "description": "Plataforma de motokarros, técnicos del hogar y materiales en Cartagena",
+  "description": "Plataforma de motokarros, técnicos del hogar y materiales en Cartagena de Indias",
   "start_url": "./index.html",
   "display": "standalone",
   "orientation": "portrait",
   "id": "servikargo-pwa",
-  "background_color": "#F59E0B",
-  "theme_color": "#F59E0B",
+  "background_color": "#FF8C00",
+  "theme_color": "#FF8C00",
   "categories": ["business", "shopping", "utilities"],
   "icons": [
     {
@@ -30,3 +30,4 @@
     }
   ]
 }
+
