@@ -1,95 +1,28 @@
 {
-  "name": "ServiKargo Cartagena",
+  "name": "ServiKargo",
   "short_name": "ServiKargo",
-  "description": "Plataforma de motokarros, técnicos del hogar y materiales en Cartagena de Indias",
-  "start_url": "/SERVIKARGO2/",
-  "scope": "/SERVIKARGO2/",
+  "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#0B1120",
-  "theme_color": "#FF6B35",
-  "orientation": "portrait-primary",
-  "lang": "es",
-  "categories": ["utilities", "productivity", "lifestyle"],
+  "background_color": "#FF8C00",
+  "theme_color": "#FF8C00",
   "icons": [
-    {
-      "src": "icon-72.png",
-      "sizes": "72x72",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "icon-96.png",
-      "sizes": "96x96",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "icon-128.png",
-      "sizes": "128x128",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "icon-144.png",
-      "sizes": "144x144",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "icon-152.png",
-      "sizes": "152x152",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
     {
       "src": "icon-192.png",
       "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "icon-384.png",
-      "sizes": "384x384",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "type": "image/png"
     },
     {
       "src": "icon-512.png",
       "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "type": "image/png"
     }
   ],
   "screenshots": [
     {
-      "src": "screenshot1.png",
-      "sizes": "390x844",
+      "src": "screenshot-wide.png",
+      "sizes": "1280x720",
       "type": "image/png",
-      "form_factor": "narrow",
-      "label": "Pantalla principal ServiKargo"
-    },
-    {
-      "src": "screenshot2.png",
-      "sizes": "390x844",
-      "type": "image/png",
-      "form_factor": "narrow",
-      "label": "Solicitar servicio"
-    }
-  ],
-  "shortcuts": [
-    {
-      "name": "Motokarros",
-      "short_name": "Flete",
-      "description": "Solicitar flete de materiales",
-      "url": "/SERVIKARGO2/?view=cliente",
-      "icons": [{"src": "icon-96.png", "sizes": "96x96"}]
-    },
-    {
-      "name": "Técnicos",
-      "short_name": "Técnico",
-      "description": "Servicios del hogar",
-      "url": "/SERVIKARGO2/?view=cliente",
-      "icons": [{"src": "icon-96.png", "sizes": "96x96"}]
+      "form_factor": "wide"
     }
   ]
 }
